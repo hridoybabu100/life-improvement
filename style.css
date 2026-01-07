@@ -194,7 +194,7 @@ ul li a{
 }
 .event-img {
     width: 600px; 
-    overflow: hidden;
+    overflow: hidden;  
     
 }
 .event-img img {
@@ -206,6 +206,25 @@ ul li a{
 }
 #event *{
     margin-bottom: 30px;
+}
+/* foter section code  */
+
+#foter {
+    background-color: rgb(11, 0, 0);
+    padding: 80px;
+}
+.foter-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.foter-box img {
+    width: 300px;
+}
+.foter-box *{
+    margin-bottom: 10px;
+    color: aliceblue;
 }
 
 
@@ -226,6 +245,12 @@ ul li a{
     .course-p {
         flex-direction: column;
     }
+    .foter-p {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
 @media screen and (max-width: 1024px){
     .container {
@@ -244,6 +269,10 @@ ul li a{
     #become {
         padding: 60px;
     }
+    #event {
+        padding: 60px;
+    }
+  
   
   
 }
@@ -289,5 +318,27 @@ ul li a{
      #become h1 {
         font-size: 20px;
     }
+    .event-img img {
+     width: 260px;
+    }
+    .event-img {
+        text-align: center;
+    }
+
+    #event {
+        padding: 10px;
+    }
+    #event h1 {
+        font-size: 20px;
+    }
+    #event p {
+        font-size: 14px;
+    }
+    #foter {
+        padding: 30px;
+    }
+    .foter-box img {
+    width: 50%;
+}
    
 }
