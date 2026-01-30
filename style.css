@@ -207,6 +207,41 @@ ul li a{
 #event *{
     margin-bottom: 30px;
 }
+
+
+
+/* vedio section code start  */
+
+#vedio {
+    margin: 50px 0;
+    background-color: #002347;
+    border-radius: 20px;
+    padding: 50px;
+}
+#vedio h1 {
+    padding: 30px 0;
+    color: #FFFFFF;
+    text-align: center;
+}
+.vedio-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.vedio-box {
+    width: 400px;
+    height: 450px;
+    background-color: beige;
+    border-radius: 20px;
+
+}
+.para {
+    padding: 20px;
+}
+
+
+
 /* foter section code  */
 
 #foter {
@@ -251,6 +286,13 @@ ul li a{
         justify-content: center;
         text-align: center;
     }
+    .vedio-p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
 }
 @media screen and (max-width: 1024px){
     .container {
@@ -272,6 +314,13 @@ ul li a{
     #event {
         padding: 60px;
     }
+        .vedio-p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
   
   
   
@@ -339,6 +388,30 @@ ul li a{
     }
     .foter-box img {
     width: 50%;
+}
+    .vedio-p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#vedio {
+    margin: 50px 0;
+    background-color: #002347;
+    border-radius: 20px;
+    padding: 30px;
+}
+.vedio-box {
+    width: 100%;
+    height: 450px;
+    background-color: beige;
+    border-radius: 20px;
+
+}
+#frame {
+    width: 100%;
 }
    
 }
